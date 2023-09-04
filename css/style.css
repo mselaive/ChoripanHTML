@@ -1,0 +1,190 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --primary: #00abfb;
+    --secondary: #7bc62d;
+    --gray: #9e9e9e;
+    --primaryfont: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: var(--primaryfont);
+    background: rgba(153, 152, 152, 0.5);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.hero{
+    background-image: url(/img/imagen.avif);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.contenido-hero{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contenido-hero h2{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+
+}
+
+.contenido-hero p{
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.navegador{
+    background-color: #413f3f;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav a{
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+
+.nav a:hover{
+    background-color: #222121;
+    
+}
+
+.title{
+    color: var(--black);
+    text-align: center;
+    font-weight: bold;
+    font-family: var(--primaryfont);
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 5px 16px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 16px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 16px 5px rgba(0,0,0,0.75);
+    background-color: #e0dbdb;
+    padding: 20px;
+}
+
+.integrantes{
+    -webkit-box-shadow: 0px 5px 16px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 16px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 16px 5px rgba(0,0,0,0.75);
+    background-color: #e0dbdb;
+    padding: 20px;
+    
+}
+
+.imagen-perfil{
+    width: 300px;
+}
+
+.integrantes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-family: var(--primaryfont);
+}
+
+.integtante{
+    text-align: center;
+}
+
+.titulo-integrantes{
+    text-align: center;
+}
+
+.titulo-int{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.team-description{
+    font-weight: bold;
+    text-align: center;
+    font-family: var(--primaryfont);
+    font-size: 20px;
+}
+
+.user-profile{
+    width: 400px;
+}
+
+.texto-profile{
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 30px;
+}
+
+.texto-profile p,
+.texto-profile li{
+    font-weight: bold;
+}
+
+.titulo-int2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-family: var(--primaryfont);
+    padding: 20px;
+    margin-top: 20px;
+}
+.ig a{
+    background-image: linear-gradient(
+        to right,
+        #aa1919,
+        #4b0ef1 50%,
+        #000000 50%
+      );
+      background-size: 200% 100%;
+      background-position: 100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: all 0.3s ease-in-out;
+    
+}
+
+
+.ig a:hover{
+    background-position: 0;
+}
+
